@@ -15,9 +15,9 @@ local Result = {}
 local debugMode = false
 
 if debugMode then
---@debug@
---"Version: " .. '@project-version@'
---@end-debug@
+	--@debug@
+	--"Version: " .. '@project-version@'
+	--@end-debug@
 end
 
 local function tooltipInit()
@@ -47,10 +47,10 @@ end
 
 -- Create Filters
 local function CreateFilter(name, uiName, uiDesc, title, items)
-	-- Register Filter with adibags
 	local filter = AdiBags:RegisterFilter(uiName, 98, "ABEvent-1.0")
+	-- Register Filter with adibags
 	filter.uiName = uiName
-	filter.uiDesc = uiDesc .. " 	Version: @project-version@"
+	filter.uiDesc = uiDesc .. " 	Version: " .. '@project-version@'
 	filter.items = items
 
 	function filter:OnInitialize()
