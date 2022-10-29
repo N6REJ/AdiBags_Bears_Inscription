@@ -10,7 +10,7 @@
 [![curse](https://img.shields.io/badge/Curseforge_Project_ID:-546354-purple)](https://www.curseforge.com/wow/addons/adibags_Bears_Inscription)
 [![requires](https://img.shields.io/badge/Requires-AdiBags-brown)](https://www.curseforge.com/wow/addons/adibags)
 
-Adds category for Bears Inscription to AdiBags
+Adds category for Inscription to AdiBags
 
 ![image](https://user-images.githubusercontent.com/1850089/141396509-643c4710-41c0-4d46-91ee-954291c9e80d.png)
 
