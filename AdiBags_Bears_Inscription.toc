@@ -1,5 +1,5 @@
 ## Interface: 100000
-## Title: AdiBags - Shadowlands Inscription
+## Title: AdiBags - Bears Inscription
 ## Version: @project-version@
 ## Author: Bearesquishy
 ## X-License: MIT
