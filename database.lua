@@ -7,14 +7,20 @@ local addonName, addonTable, addon = ...
 -- Create addon table
 local db = { }
 
+local addonName, addonTable = ...;
+
+-- Get locals namse
+local L = addonTable.locales;
+local Expansion = L["SHADOWLANDS"]
+
 db.name = "Shadowlands Inscription"
-db.desc = "Inscription found while gathering in shadowlands"
+db.desc = "Inscription found while gathering in " .. Expansion
 
 -- Filter info
 db.Filters = {
     ["Herbs"] = {
         uiName = "Shadowlands Herbs",
-        uiDesc = "Herbs found in Shadowlands",
+        uiDesc = "Herbs found in " .. Expansion,
         title = "Herbs",
         items = {
             -- ID,	--Item name
@@ -29,7 +35,7 @@ db.Filters = {
     },
     ["Ink"] = {
         uiName = "Shadowlands Inscription",
-        uiDesc = "Ink made in Shadowlands",
+        uiDesc = "Ink made in " .. Expansion,
         title = "Ink",
         items = {
             -- ID,	--Item name
@@ -40,7 +46,7 @@ db.Filters = {
     },
     ["Vendor_Reagents"] = {
         uiName = "Shadowlands Inscription Reagents",
-        uiDesc = "Inscription reagents from vendors used in Shadowlands",
+        uiDesc = "Inscription reagents from vendors used in " .. Expansion,
         title = "Inscription Reagents",
         items = {
             -- ID    = true,    --Item name
@@ -52,7 +58,7 @@ db.Filters = {
     },
     ["Crafted_Reagents"] = {
         uiName = "Shadowlands Crafted Reagents",
-        uiDesc = "Reagents made by crafting in Shadowlands",
+        uiDesc = "Reagents made by crafting in " .. Expansion,
         title = "Crafted Reagents",
         items = {
             -- ID    = true,    --Item name
