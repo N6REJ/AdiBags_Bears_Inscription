@@ -12,13 +12,13 @@ local Expansion = L["Shadowlands"]
 -- Create addon table
 local db = { }
 
-db.name = "Shadowlands Inscription"
+db.name = Expansion .. " Inscription"
 db.desc = "Inscription found while gathering in " .. Expansion
 
 -- Filter info
 db.Filters = {
     ["Herbs"] = {
-        uiName = "Shadowlands Herbs",
+        uiName = Expansion .. " Herbs",
         uiDesc = "Herbs found in " .. Expansion,
         title = "Herbs",
         items = {
@@ -33,7 +33,7 @@ db.Filters = {
         },
     },
     ["Ink"] = {
-        uiName = "Shadowlands Inscription",
+        uiName = Expansion .. " Inscription",
         uiDesc = "Ink made in " .. Expansion,
         title = "Ink",
         items = {
@@ -44,7 +44,7 @@ db.Filters = {
         },
     },
     ["Vendor_Reagents"] = {
-        uiName = "Shadowlands Inscription Reagents",
+        uiName = Expansion .. " Inscription Reagents",
         uiDesc = "Inscription reagents from vendors used in " .. Expansion,
         title = "Inscription Reagents",
         items = {
@@ -56,7 +56,7 @@ db.Filters = {
         },
     },
     ["Crafted_Reagents"] = {
-        uiName = "Shadowlands Crafted Reagents",
+        uiName = Expansion .. " Crafted Reagents",
         uiDesc = "Reagents made by crafting in " .. Expansion,
         title = "Crafted Reagents",
         items = {
@@ -69,6 +69,15 @@ db.Filters = {
             [185960] = true, -- Vestige of Origins
         },
     },
+    ["Zone_Reagents"] = {
+        uiName = "Special reagents",
+        uiDesc = "Special reagents from zones in " .. Expansion,
+        title = "Zone Reagents",
+        items = {
+            -- ID    = true,    --Item name
+            [187701] = true  -- Protogenic Pelt
+        }
+    }
 }
 
 -- now that db is populated lets pass it on.
