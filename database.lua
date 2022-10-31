@@ -70,7 +70,7 @@ db.Filters = {
         },
     },
     ["Zone_Reagents"] = {
-        uiName = "Special reagents",
+        uiName = "Special Reagents",
         uiDesc = "Special reagents from zones in " .. Expansion,
         title = "Zone Reagents",
         items = {
