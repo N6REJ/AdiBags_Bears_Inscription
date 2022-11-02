@@ -1,4 +1,4 @@
--- AdiBags_Bears Inscription - Database
+-- AdiBags Bears Inscription - Database
 -- Created by @project-author@character is Bearesquishy - dalaran please credit whenever.
 -- Source on GitHub: https://n6rej.github.io
 ---@type
@@ -6,14 +6,14 @@
 local addonName, addonTable = ...;
 
 -- Get locals name
-local L = addonTable.locales;
-local Expansion = L["Shadowlands"]
+local E = addonTable.expansion;
+local Expansion = E["Shadowlands"]
 
 -- Create addon table
 local db = { }
 
 db.name = Expansion .. " Inscription"
-db.desc = "Inscription found while gathering in " .. Expansion
+db.desc = "Inscription reagents for " .. Expansion
 
 -- Filter info
 db.Filters = {
