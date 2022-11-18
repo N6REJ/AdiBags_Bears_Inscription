@@ -1,4 +1,4 @@
-## Title: Bears Inscription
+## Title: AdiBags - Bears Inscription
 ## Interface: 100002
 ## X-Interface: 100002
 ## Version: @project-version@
