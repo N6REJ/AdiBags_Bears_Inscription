@@ -18,7 +18,7 @@ db.desc = "Inscription reagents for " .. Expansion
 -- Filter info
 db.Filters = {
     ["Herbs"] = {
-        uiName = Expansion .. " Herbs",
+        uiName = "Bears " .. Expansion .. " Herbs",
         uiDesc = "Herbs found in " .. Expansion,
         title = "Herbs",
         items = {
@@ -33,7 +33,7 @@ db.Filters = {
         },
     },
     ["Ink"] = {
-        uiName = Expansion .. " Inscription",
+        uiName = "Bears " .. Expansion .. " Inscription",
         uiDesc = "Ink made in " .. Expansion,
         title = "Ink",
         items = {
@@ -44,7 +44,7 @@ db.Filters = {
         },
     },
     ["Vendor_Reagents"] = {
-        uiName = Expansion .. " Inscription Reagents",
+        uiName = "Bears " .. Expansion .. " Inscription Reagents",
         uiDesc = "Inscription reagents from vendors used in " .. Expansion,
         title = "Inscription Reagents",
         items = {
@@ -56,7 +56,7 @@ db.Filters = {
         },
     },
     ["Crafted_Reagents"] = {
-        uiName = Expansion .. " Crafted Reagents",
+        uiName = "Bears " .. Expansion .. " Crafted Reagents",
         uiDesc = "Reagents made by crafting in " .. Expansion,
         title = "Crafted Reagents",
         items = {
