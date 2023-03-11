@@ -12,6 +12,6 @@
 expansion.lua
 Global-dbs.lua
 DF-Global.lua
-Shadowlands.lua
-Dragonflight.lua
+SL.lua
+DF.lua
 core.lua
