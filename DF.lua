@@ -93,6 +93,15 @@ db.Filters = {
             [194755] = true, -- Cosmic Ink 2
             [194756] = true, -- Cosmic Ink 3
         },
+    },
+    ["Artisan"] = {
+        uiName = "Bears " .. Expansion .. " Artisan Inscription items",
+        uiDesc = "Artisan items found in " .. Expansion,
+        title = "Artisan",
+        items = {
+            -- ID,	--Item name
+            [203403] = true, -- Hastily Scrawled Rune
+        }
     }
 }
 
