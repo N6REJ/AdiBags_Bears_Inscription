@@ -1,6 +1,6 @@
 ## Title: AdiBags - Bears Inscription
-## Interface: 100200
-## X-Interface: 100200
+## Interface: 100205
+## X-Interface: 100205
 ## Version: @project-version@
 ## Author: Bearesquishy
 ## X-License: MIT
